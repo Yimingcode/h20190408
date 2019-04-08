@@ -1,0 +1,6 @@
+framework module h20190408 {
+  umbrella header "h20190408-umbrella.h"
+
+  export *
+  module * { export * }
+}
