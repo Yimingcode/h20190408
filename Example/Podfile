@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'h20190408_Example' do
+  pod 'h20190408', :path => '../'
+
+  target 'h20190408_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
